@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CPC",
+		"CPC",
+		" C "
+	],
+	"key": {
+		"C": [{
+			"item": "spacex:compressed_carbonfiber",
+			"data": 0
+		}],
+		"P": [{
+			"item": "minecraft:sticky_piston",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:leg",
+		"data": 0
+	}
+}

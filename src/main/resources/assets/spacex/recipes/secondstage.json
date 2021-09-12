@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "galacticraftcore:standard_wrench",
+	  "data": 32767
+	},
+	{
+	  "item": "spacex:secondstage_used",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "spacex:secondstage",
+    "data": 0
+  }
+}

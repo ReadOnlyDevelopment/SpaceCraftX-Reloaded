@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"TCT",
+		"POP"
+	],
+	"key": {
+		"C": [{
+			"item": "galacticraftcore:fuel_loader",
+			"data": 0
+		}],
+		"P": [{
+			"item": "galacticraftcore:basic_item",
+			"data": 9
+		}],
+		"T": [{
+			"item": "galacticraftcore:oxygen_tank_heavy_full",
+			"data": 0
+		}],
+		"O": [{
+			"item": "galacticraftcore:fluid_pipe",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:oxygen_loader",
+		"data": 0
+	}
+}

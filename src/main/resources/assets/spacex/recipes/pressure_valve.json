@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" TW",
+		" TO",
+		" T "
+	],
+	"key": {
+		"T": [{
+			"item": "galacticraftcore:fluid_pipe",
+			"data": 0
+		}],
+		"O": [{
+			"item": "galacticraftcore:oxygen_concentrator",
+			"data": 0
+		}],
+		"W": [{
+			"item": "galacticraftcore:aluminum_wire",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:pressure_valve",
+		"data": 0
+	}
+}

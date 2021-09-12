@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"L",
+		"V"
+	],
+	"key": {
+		"L": [{
+			"item": "spacex:oxygen_loader",
+			"data": 0
+		}],
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:oxygen_unloader",
+		"data": 0
+	}
+}

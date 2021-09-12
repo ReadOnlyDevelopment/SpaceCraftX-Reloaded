@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"L",
+		"V"
+	],
+	"key": {
+		"L": [{
+			"item": "galacticraftcore:fuel_loader",
+			"data": 0
+		}],
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:fuel_unloader",
+		"data": 0
+	}
+}

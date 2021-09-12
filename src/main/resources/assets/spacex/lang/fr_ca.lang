@@ -1,0 +1,77 @@
+entity.falcon9.name=FalconCraft 9
+entity.secondstage.name=Second étage de FalconCraft 9
+entity.dragon.name=Capsule DragonCraft
+entity.trunk.name=Tronc de capsule DragonCraft
+
+itemGroup.spacex=SpaceCraftX
+item.falcon9.name=FalconCraft 9
+item.falcon9_used.name=FalconCraft 9
+item.secondstage.name=Second étage de FalconCraft 9
+item.secondstage_used.name=Second étage de FalconCraft 9
+item.dragon.name=Capsule DragonCraft
+item.dragon_used.name=Capsule DragonCraft
+item.trunk.name=Tronc de capsule DragonCraft
+item.trunk_used.name=Tronc de capsule DragonCraft
+item.compressed_alli.name=Aluminium et lithium comprimés
+item.compressed_carbonfiber.name=Plaque en fibres de carbone
+item.ingot_lithium.name=Lingot de lithium
+item.merlin1d.name=Propulseur Merlin1D
+item.oxygen_tank.name=Réservoir à oxygène liquide
+item.rp1_tank.name=Réservoir à RP1
+item.nozzle.name=Tuyère de propulseur
+item.combustion_chamber.name=Chambre de combustion de propulseur
+item.turbopump.name=Turbopompe de propulseur
+item.gridfin.name=Ailettes en treillis
+item.leg.name=Pied dépliable
+item.pressure_valve.name=Valve haute pression
+item.seat.name=Siège pour capsule DragonCraft
+item.draco.name=Propulseur Draco
+item.trunk_fin.name=Ailette
+
+gui.oxygen_tank.desc.0=Réservoir à oxygène liquide, requiert
+gui.oxygen_tank.desc.1=un chargeur à oxygène liquide
+gui.oxygen_tank.desc.2=Réservoir à oxygène liquide, peut être remplit
+gui.oxygen_tank.desc.3=avec de l'oxyène
+gui.message.oxygen.name=Oxygène liquide
+gui.message.falcon9.used=Déjà utilisée, à rénover
+gui.button.loadoxygen.name=Charger l'oxygène
+gui.button.unloadoxygen.name=Décharger l'oxygène
+gui.button.unloadfuel.name=Décharger le carburant
+gui.button.stopunloading.name=Arrêter le déchargement
+gui.status.nooxygen.name=Pas d'oxygène à charger!
+gui.status.nooxygenunload.name=Désactivé
+gui.status.nofuelunload.name=Désactivé
+gui.pad_slot.desc.0=Emplacement des rampes de lancement
+gui.rocket.warning.f9.used=Le premier étage de la fusée est usé, il faut le réparer.
+gui.rocket.warning.dragon.used=La capsule est usée, il faut la réparer.
+
+container.oxygenloader.name=Chargeur à oxygène
+container.oxygenunloader.name=Déchargeur d'oxygène
+container.fuelunloader.name=Déchargeur de carburant
+
+tile.oxygen_loader.description=Après avoir été connecté à la rampe de lancement, le chargeur à oxygène liquide autorisera l'oxygène à passer dans les fusées connectés.
+tile.oxygen_loader.name=Chargeur à oxygène liquide
+tile.oxygen_unloader.description=Après avoir été connecté à la rampe de lancement, le déchargeur à oxygène liquide autorisera l'oxygène à passer dans le déchargeur d'oxygène connecté.
+tile.oxygen_unloader.name=Déchargeur a oxygène liquide
+tile.fuel_unloader.description=Après avoir été connecté à la rampe de lancement, le déchargeur à carburant autorisera le carburant à passer dans le déchargeur de carburant connecté.
+tile.fuel_unloader.name=Déchargeur de carburant
+tile.ore_lithium.name=Minerai de lithium
+
+advancements.spacex.root.description=Le début d'un voyage vers les étoiles
+advancements.spacex.takeaseat.title=Prendre place
+advancements.spacex.takeaseat.description=Asseyez vous dans une capsule dragoncraft
+advancements.spacex.rocketscience.title=Rocket science is hard
+advancements.spacex.rocketscience.description=Craftez un propulseur Merlin 1D
+advancements.spacex.ignited.title=Enflammé
+advancements.spacex.ignited.description=Allumez un booster falconcraft 9 avec un briquet
+advancements.spacex.recycling.title=Recyclage
+advancements.spacex.recycling.description=Recyclez un booster falconcraft 9
+advancements.spacex.onesmallstepforman.title=Un petit pas pour l'homme
+advancements.spacex.onesmallstepforman.description=Faites un pas sur la lune
+advancements.spacex.onegiantleapformankind.title=Et un grand pas pour l'humanité
+advancements.spacex.onegiantleapformankind.description=Faites un pas sur mars
+
+schematic.falcon9.name=Fusée FalconCraft 9
+schematic.dragon.name=Capsule DragonCraft
+schematic.secondstage.name=Second étage de FalconCraft 9
+schematic.dragon_trunk.name=Tronc de capsule DragonCraft

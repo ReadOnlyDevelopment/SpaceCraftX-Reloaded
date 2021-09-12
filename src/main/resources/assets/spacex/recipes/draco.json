@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"VTV",
+		"CPC",
+		"NPN"
+	],
+	"key": {
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}],
+		"T": [{
+			"item": "galacticraftcore:fluid_pipe",
+			"data": 0
+		}],
+		"C": [{
+			"item": "spacex:combustion_chamber",
+			"data": 0
+		}],
+		"P": [{
+			"item": "galacticraftcore:basic_item",
+			"data": 9
+		}],
+		"N": [{
+			"item": "spacex:nozzle",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:draco",
+		"data": 0
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.recycling.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.recycling.description"
+        },
+        "icon": {
+            "item": "galacticraftcore:standard_wrench"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "recycling": {
+            "trigger": "spacex:recycling"
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "spacex:ignited"
+}

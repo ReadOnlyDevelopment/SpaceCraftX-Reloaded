@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": "SpaceX",
+        "description": {
+            "translate": "advancements.spacex.root.description"
+        },
+        "icon": {
+            "item": "spacex:falcon9"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

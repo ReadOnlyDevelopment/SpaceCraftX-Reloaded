@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "spacex",
+    "name": "SpaceCraftX",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "logoFile": "assets/spacex/logo.png",
+    "authorList": [
+      "Militario", 
+      "ROMVoid95"
+    ],
+    "dependencies": [
+      "galacticraftcore",
+      "galacticraftplanets"
+    ]
+  }
+]

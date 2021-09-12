@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.onesmallstepforman.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.onesmallstepforman.description"
+        },
+        "icon": {
+            "item": "galacticraftcore:basic_block_moon",
+			"data": 5
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "onesmallstepforman": {
+            "trigger": "spacex:onesmallstepforman"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "spacex:takeaseat"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "spacex:fuel_unloader",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "galacticraftcore:fuel_loader",
+    "data": 0
+  }
+}

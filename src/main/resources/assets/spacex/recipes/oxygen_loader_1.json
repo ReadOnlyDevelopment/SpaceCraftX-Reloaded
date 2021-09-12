@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "spacex:oxygen_unloader",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "spacex:oxygen_loader",
+    "data": 0
+  }
+}

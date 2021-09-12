@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" P ",
+		"P P",
+		"P P"
+	],
+	"key": {
+		"P": [{
+			"item": "galacticraftcore:heavy_plating",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:nozzle",
+		"data": 0
+	}
+}

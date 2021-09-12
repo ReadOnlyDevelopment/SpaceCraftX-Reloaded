@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.takeaseat.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.takeaseat.description"
+        },
+        "icon": {
+            "item": "spacex:seat"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "takeaseat": {
+            "trigger": "spacex:takeaseat"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "spacex:spacex"
+}

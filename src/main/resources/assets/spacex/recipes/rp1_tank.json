@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XSX",
+		"XVX"
+	],
+	"key": {
+		"X": [{
+			"item": "spacex:compressed_alli",
+			"data": 0
+		}],
+		"S": [{
+			"item": "galacticraftcore:basic_item",
+			"data": 20
+		}],
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:rp1_tank",
+		"data": 0
+	}
+}

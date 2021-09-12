@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"V V",
+		"P P"
+	],
+	"key": {
+		"P": [{
+			"item": "galacticraftcore:heavy_plating",
+			"data": 0
+		}],
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:combustion_chamber",
+		"data": 0
+	}
+}

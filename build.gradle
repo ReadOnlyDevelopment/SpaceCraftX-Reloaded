@@ -1,0 +1,95 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "https://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "1.2.0"
+group = "fr.militario.spacex"
+archivesBaseName = "SpaceCraftX"
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "1.12.2-14.23.5.2847"
+    runDir = "run"
+	useDepAts = true
+    mappings = "snapshot_20171003"
+	
+	replace '${VERSION}', version
+	replace '${SHA1}', project.findProperty('signSHA1')
+	replaceIn "F9Constants.java"
+}
+
+apply from: 'https://raw.githubusercontent.com/ReadOnlyDevelopment/gradle/galacticraft/dev-latest.gradle'
+
+repositories {
+	maven { url "https://www.cursemaven.com" }
+	maven {
+		name 'prog'
+		url 'https://dvs1.progwml6.com/files/maven'
+	}
+	mavenLocal()
+}
+
+dependencies {
+	compileOnly "mezz.jei:jei_1.12.2:4.15.0.289:api"
+	runtime "mezz.jei:jei_1.12.2:4.15.0.289"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+task deobfJar(type: Jar) {
+	description = 'Creates a JAR containing the non-obfuscated compiled code.'
+	from sourceSets.main.output
+	classifier = "deobf"
+}
+
+artifacts {
+	archives deobfJar
+}
+
+//Shuts up javadoc failures
+if (JavaVersion.current().isJava8Compatible()) {
+	allprojects {
+		tasks.withType(Javadoc) {
+			options.addStringOption('Xdoclint:none', '-quiet')
+		}
+	}
+}
+
+task signJar(type: SignJar, dependsOn: reobfJar) {
+	onlyIf {
+		project.hasProperty('keyStore')
+	}
+
+	keyStore = project.findProperty('keyStore')
+	alias = project.findProperty('keyStoreAlias')
+	storePass = project.findProperty('keyStorePass')
+	keyPass = project.findProperty('keyStoreKeyPass')
+	inputFile = jar.archivePath
+	outputFile = jar.archivePath
+}
+
+build.dependsOn signJar

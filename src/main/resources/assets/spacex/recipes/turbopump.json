@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SVS",
+		"VFV",
+		"S S"
+	],
+	"key": {
+		"S": [{
+			"item": "galacticraftcore:basic_item",
+			"data": 9
+		}],
+		"V": [{
+			"item": "spacex:pressure_valve",
+			"data": 0
+		}],
+		"F": [{
+			"item": "galacticraftcore:air_fan",
+			"data": 0
+		}]
+	},
+	"result": {
+		"item": "spacex:turbopump",
+		"data": 0
+	}
+}

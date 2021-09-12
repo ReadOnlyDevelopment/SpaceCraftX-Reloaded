@@ -1,0 +1,7 @@
+{
+    "gaz_fuse": {
+    "category": "ambient",
+    "subtitle": "spacex.subtitle.gaz_fuse",
+    "sounds": [ "spacex:gaz_fuse" ]
+  }
+}

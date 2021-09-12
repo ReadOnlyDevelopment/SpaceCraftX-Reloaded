@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.onegiantleapformankind.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.onegiantleapformankind.description"
+        },
+        "icon": {
+            "item": "galacticraftplanets:mars",
+			"data": 5
+        },
+		"frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "onegiantleapformankind": {
+            "trigger": "spacex:onegiantleapformankind"
+        }
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "spacex:onesmallstepforman"
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "galacticraftcore:standard_wrench",
+	  "data": 32767
+	},
+	{
+	  "item": "minecraft:book",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "spacex:schematic",
+    "data": 2
+  }
+}

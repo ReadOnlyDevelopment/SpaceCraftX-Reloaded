@@ -1,0 +1,7 @@
+{
+    "forge_marker": 1,
+    "variants": {
+		"normal": { "model": "spacex:ore_lithium_model" },
+        "inventory": [{ "model": "spacex:ore_lithium_model" }]
+    }
+}

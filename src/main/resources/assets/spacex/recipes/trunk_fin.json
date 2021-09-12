@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PP ",
+		"PPP",
+		"PPP"
+	],
+	"key": {
+		"P": [{
+			"item": "galacticraftcore:basic_item",
+			"data": 8
+		}]
+	},
+	"result": {
+		"item": "spacex:trunk_fin",
+		"data": 0
+	}
+}

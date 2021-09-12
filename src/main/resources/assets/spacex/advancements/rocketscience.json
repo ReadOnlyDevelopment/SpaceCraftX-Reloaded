@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.rocketscience.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.rocketscience.description"
+        },
+        "icon": {
+            "item": "spacex:merlin1d"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft_engine": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "spacex:merlin1d"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "spacex:spacex"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.spacex.ignited.title"
+        },
+        "description": {
+            "translate": "advancements.spacex.ignited.description"
+        },
+        "icon": {
+            "item": "spacex:falcon9_used"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ignited": {
+            "trigger": "spacex:ignited"
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "spacex:rocketscience"
+}
